@@ -1,0 +1,101 @@
+*{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+
+:root{
+    --cs-text:#4b4f56;
+}
+
+h4{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #365899;
+    font-weight: 500;
+}
+
+p{
+    font-size: 14px;
+    padding: 0px;
+    margin: 0;
+    margin: 4px 0px;
+    color: var(--cs-text);
+    font-weight: 400;
+}
+
+a{
+    font-size: 12px;
+    color: #4267B2;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+span{
+    color: #90949C;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.comment_box{
+    width: 38%;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    color: #4b4f56;
+    padding: 50px;
+}
+
+.comment_head p{
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.comment_head hr{
+    color: #dddfe2;
+    margin-bottom: 24px;
+}
+
+.comments{}
+
+.users{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.user_image{}
+
+.user_image a{}
+
+.user_image a img{}
+
+.user_details{
+    padding-left: 15px;
+}
+
+.elements{
+}
+
+.elements ul{
+    display: flex;
+    align-items: center;
+}
+
+.elements ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+.elements ul li a{
+    text-decoration: none;
+}
+
+.elements ul li a img{
+    width: 13px;
+    padding-right: 3px;
+}
+
+.elements ul li span{}
