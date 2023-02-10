@@ -5,6 +5,10 @@
     --cs-primary:#365899;
 }
 
+hr{
+    background-color: #dddfe2;
+}
+
 h2{
     font-size: 30px;
     font-weight: 700;
@@ -128,6 +132,16 @@ span{
 }
 
 .elements ul li span{}
+
+.dot::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 2px;
+    border-radius: 50px;
+    background-color: var(--cs-text);
+    transform: translate(-50%, -50%);
+}
 
 .load_more{
     text-align: center;
