@@ -2,14 +2,28 @@
 
 :root{
     --cs-text:#4b4f56;
+    --cs-primary:#365899;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h3{
+    color: var(--cs-text);
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 h4{
     font-size: 15px;
     padding: 0;
     margin: 0;
-    color: #365899;
-    font-weight: 500;
+    color: var(--cs-primary);
+    font-weight: 700;
 }
 
 p{
@@ -19,6 +33,7 @@ p{
     margin: 4px 0px;
     color: var(--cs-text);
     font-weight: 400;
+    line-height: 26px;
 }
 
 a{
@@ -27,6 +42,7 @@ a{
     padding: 0;
     margin: 0;
     font-weight: 400;
+    text-decoration: none;
 }
 
 span{
@@ -37,6 +53,19 @@ span{
     font-weight: 400;
 }
 
+
+/* text design */
+.product{
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+
+
+
+/* comment box */
 .comment_box{
     width: 38%;
     margin: auto;
@@ -99,3 +128,66 @@ span{
 }
 
 .elements ul li span{}
+
+.load_more{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.load_more a{
+    background: #3578e5;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 24px;
+    padding: 12px;
+    text-shadow: none;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    display: block;
+}
+
+/* like button */
+.like_button{
+    width: 40%;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    background-color: #5e91ff;
+    padding: 5px;
+    border-radius: 4px;
+    width: 57px;
+    margin-right: 10px;
+}
+
+.like a{}
+
+.like a img{
+    width: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.like h3{
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.like_text{}
+
+.like_text span{}

@@ -1,0 +1,87 @@
+@media(max-width:1024px) {
+
+    body{
+        padding: 0px 15px;
+    }
+    .product {
+        text-align: center;
+        width: 100%;
+    }
+
+    .like_button {
+        width: 100%;
+    }
+
+    .comment_box {
+        width: 70%;
+        padding: 35px;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:991px) {
+
+    body{
+        padding: 0px 15px;
+    }
+    .product {
+        text-align: center;
+        width: 100%;
+    }
+
+    .like_button {
+        width: 100%;
+    }
+
+    .comment_box {
+        width: 90%;
+        padding: 35px;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    body{
+        padding: 0px 15px;
+    }
+    .product {
+        text-align: center;
+        width: 100%;
+    }
+
+    .like_button {
+        width: 100%;
+    }
+
+    .comment_box {
+        width: 85%;
+        padding: 30px;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:425px) {
+
+    body{
+        padding: 0px 15px;
+    }
+    .product {
+        text-align: center;
+        width: 100%;
+    }
+
+    .like_button {
+        width: 100%;
+    }
+
+    .comment_box {
+        width: 85%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
