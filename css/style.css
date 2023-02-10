@@ -1,5 +1,8 @@
 *{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
 
+body{
+    padding: 50px 0px;
+}
 :root{
     --cs-text:#4b4f56;
     --cs-primary:#365899;
