@@ -3,7 +3,7 @@
 body{
     padding: 50px 0px;
 }
-:root{
+/* :root{
     --cs-text:#4b4f56;
     --cs-primary:#365899;
 }
@@ -58,7 +58,7 @@ span{
     margin: 0;
     padding: 0;
     font-weight: 400;
-}
+} */
 
 
 /* text design */
@@ -69,6 +69,18 @@ span{
     padding: 50px 0px;
 }
 
+.product h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.product h3{
+    color:#4b4f56;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
 /* like button */
 .like_button{
     padding: 15px 0px;
@@ -104,7 +116,13 @@ span{
 
 .like_text{}
 
-.like_text span{}
+.like_text span{
+    color: #90949C;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
 
 
 /* comment box */
@@ -122,7 +140,7 @@ span{
     padding: 10px 0px;
     margin: 0;
     font-size: 14px;
-
+    color: #4b4f56;
 }
 
 .comment_head hr{
@@ -147,6 +165,24 @@ span{
     padding-left: 15px;
 }
 
+.user_details h4{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #365899;
+    font-weight: 700;
+}
+
+.user_details p{
+    font-size: 14px;
+    padding: 0px;
+    margin: 0;
+    margin: 4px 0px;
+    color: #4b4f56;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .elements{
 }
 
@@ -161,6 +197,11 @@ span{
 }
 
 .elements ul li a{
+    font-size: 12px;
+    color: #4267B2;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
     text-decoration: none;
 }
 
@@ -169,7 +210,13 @@ span{
     padding-right: 3px;
 }
 
-.elements ul li span{}
+.elements ul li span{
+    color: #90949C;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
 
 .dot::before{
     position: absolute;
@@ -177,7 +224,7 @@ span{
     width: 2px;
     height: 2px;
     border-radius: 50px;
-    background-color: var(--cs-text);
+    background-color: #4b4f56;
     transform: translate(-50%, -50%);
 }
 
@@ -200,6 +247,7 @@ span{
     position: relative;
     text-align: center;
     vertical-align: middle;
+    text-decoration: none;
     border-radius: 2px;
     display: block;
 }
