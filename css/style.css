@@ -1,243 +1,186 @@
-*{margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
 
-body{
+body {
     padding: 50px 0px;
 }
-/* :root{
-    --cs-text:#4b4f56;
-    --cs-primary:#365899;
-}
 
-hr{
-    background-color: #dddfe2;
-}
-
-h2{
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-}
-
-h3{
-    color: var(--cs-text);
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-
-h4{
-    font-size: 15px;
-    padding: 0;
-    margin: 0;
-    color: var(--cs-primary);
-    font-weight: 700;
-}
-
-p{
-    font-size: 14px;
-    padding: 0px;
-    margin: 0;
-    margin: 4px 0px;
-    color: var(--cs-text);
-    font-weight: 400;
-    line-height: 26px;
-}
-
-a{
-    font-size: 12px;
-    color: #4267B2;
-    padding: 0;
-    margin: 0;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-span{
-    color: #90949C;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-} */
-
-
-/* text design */
-.product{
+.product {
     text-align: center;
     width: 33%;
     margin: auto;
     padding: 50px 0px;
 }
 
-.product h2{
+.product h2 {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
 }
 
-.product h3{
-    color:#4b4f56;
+.product h3 {
+    color: rgb(75, 79, 86);
     font-size: 25px;
     font-weight: 500;
     margin-top: 20px;
 }
-/* like button */
-.like_button{
+
+.like_button {
     padding: 15px 0px;
     display: flex;
     align-items: center;
 }
 
-.like{
+.like {
     display: flex;
     align-items: center;
-    background-color: #5e91ff;
+    background-color: rgb(94, 145, 255);
     padding: 5px;
     border-radius: 4px;
     width: 57px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
-.like a{}
+.like a {}
 
-.like a img{
+.like a img {
     width: 16px;
     position: relative;
     z-index: 10;
 }
 
-.like h3{
+.like h3 {
     font-size: 12px;
-    margin: 0;
+    margin: 0px;
     font-weight: 700;
     padding-left: 10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
-.like_text{}
+.like_text {}
 
-.like_text span{
-    color: #90949C;
+.like_text span {
+    color: rgb(144, 148, 156);
     font-size: 12px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-weight: 400;
 }
 
-
-/* comment box */
-.comment_box{
+.comment_box {
     width: 38%;
     margin: auto;
-    background: #fff;
-    border: 1px solid #dddfe2;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
     border-radius: 3px;
-    color: #4b4f56;
+    color: rgb(75, 79, 86);
     padding: 50px;
 }
 
-.comment_head p{
+.comment_head p {
     padding: 10px 0px;
-    margin: 0;
+    margin: 0px;
     font-size: 14px;
-    color: #4b4f56;
+    color: rgb(75, 79, 86);
 }
 
-.comment_head hr{
-    color: #dddfe2;
+.comment_head hr {
+    color: rgb(221, 223, 226);
     margin-bottom: 24px;
 }
 
-.comments{}
+.comments {}
 
-.users{
+.users {
     display: flex;
     margin-bottom: 24px;
 }
 
-.user_image{}
+.user_image {}
 
-.user_image a{}
+.user_image a {}
 
-.user_image a img{}
+.user_image a img {}
 
-.user_details{
+.user_details {
     padding-left: 15px;
 }
 
-.user_details h4{
+.user_details h4 {
     font-size: 15px;
-    padding: 0;
-    margin: 0;
-    color: #365899;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(54, 88, 153);
     font-weight: 700;
 }
 
-.user_details p{
+.user_details p {
     font-size: 14px;
     padding: 0px;
-    margin: 0;
     margin: 4px 0px;
-    color: #4b4f56;
+    color: rgb(75, 79, 86);
     font-weight: 400;
     line-height: 26px;
 }
 
-.elements{
-}
+.elements {}
 
-.elements ul{
+.elements ul {
     display: flex;
     align-items: center;
 }
 
-.elements ul li{
+.elements ul li {
     list-style: none;
     padding-right: 10px;
 }
 
-.elements ul li a{
+.elements ul li a {
     font-size: 12px;
-    color: #4267B2;
-    padding: 0;
-    margin: 0;
+    color: rgb(66, 103, 178);
+    padding: 0px;
+    margin: 0px;
     font-weight: 400;
     text-decoration: none;
 }
 
-.elements ul li a img{
+.elements ul li a img {
     width: 13px;
     padding-right: 3px;
 }
 
-.elements ul li span{
-    color: #90949C;
+.elements ul li span {
+    color: rgb(144, 148, 156);
     font-size: 12px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-weight: 400;
 }
 
-.dot::before{
+.dot::before {
     position: absolute;
-    content: '';
+    content: "";
     width: 2px;
     height: 2px;
     border-radius: 50px;
-    background-color: #4b4f56;
+    background-color: rgb(75, 79, 86);
     transform: translate(-50%, -50%);
 }
 
-.load_more{
+.load_more {
     text-align: center;
     margin-top: 10px;
 }
 
-.load_more a{
-    background: #3578e5;
+.load_more a {
+    background: rgb(53, 120, 229);
     border: none;
     box-sizing: border-box;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 14px;
     margin-top: 24px;
     padding: 12px;
@@ -251,4 +194,3 @@ span{
     border-radius: 2px;
     display: block;
 }
-
